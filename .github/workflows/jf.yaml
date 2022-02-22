@@ -16,5 +16,5 @@ jobs:
           # jfrog c use priar
           # jfrog rt ping
           
-          jf rt dl artifacts/
+          jfrog rt dl artifacts/
         
