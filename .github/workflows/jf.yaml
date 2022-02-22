@@ -15,6 +15,6 @@ jobs:
           # Ping the server priar
           jfrog c use priar
           jfrog rt ping
-          jfrog rt u artifacts/
+          jfrog rt u aether artifacts/
           jfrog rt dl artifacts/
         
