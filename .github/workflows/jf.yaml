@@ -13,8 +13,8 @@ jobs:
       - run: |
           jfrog --version
           # Ping the server priar
-          # jfrog c use priar
-          # jfrog rt ping
+          jfrog c use priar
+          jfrog rt ping
           
           jfrog rt dl artifacts/
         
