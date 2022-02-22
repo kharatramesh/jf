@@ -12,4 +12,5 @@ jobs:
            JF_ARTIFACTORY_1: ${{ secrets.artifactory_token_1 }}
       - run: |
           # Ping the server priar
+          jfrog c use priar
           jfrog rt ping
