@@ -16,5 +16,4 @@ jobs:
           # jfrog rt ping
           
           jfrog rt dl artifacts/
-          jfrog rt u aether artifacts/
-          jfrog rt bp
+        
